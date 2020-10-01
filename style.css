@@ -1,0 +1,355 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.header{
+    background-color: #F2F2F2;
+    width: 100%;
+}
+
+.header2{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.full-blog-container .toolbar{
+    display: inline-block;
+    width: 19%;
+}
+
+.full-blog-container .toolbar i{
+    padding-left: 140px;
+    text-align: right;
+}
+
+.blog-info-text{
+    display: inline-block;
+    width: 80%;
+}
+
+.a-nav{
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.a-nav2{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-size: 15px;
+}
+
+.a-nav li{
+    display: inline;
+    margin: 10px;
+    padding:10px;
+}
+
+.a-nav li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.a-nav2 li{
+    display: inline;
+    margin: 10px;
+    padding:10px;
+}
+
+.a-nav2 li a{
+    text-decoration: none;
+    color: black;
+}
+
+.i-nav{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.i-nav2{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.i-nav i{
+    padding:10px;
+    color: gray;
+}
+
+.i-nav2 i{
+    padding:10px;
+    color: black;
+}
+
+.full-blog{
+    margin-top: 40px;
+}
+
+.full-blog-container{
+    width: 80%;
+    margin:40px auto;
+}
+
+.full-blog img{
+    height:50px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.full-blog .blog-info{
+ font-size: 15px;
+ color: gray;
+ padding: 10px;
+}
+
+.full-blog .blog-info i{
+    color: black;
+}
+
+.full-blog .dot{
+    color: black;
+font-size: 20px;
+}
+
+.blog-info-container{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.blog-title h1, .blog-title p{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.blog-title img{
+    width: 100%;
+    height:auto;
+    margin-bottom: 40px;
+}
+
+.full-blog-container h2{
+    margin-top: 40px;
+}
+
+.full-blog-container{
+    padding:40px;
+    border: gray 1px solid;
+}
+
+.full-blog-container .relevant-p{
+    margin-bottom: 40px;
+}
+
+.text-size{
+    word-spacing: 0.4em;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+}
+
+.full-blog-container .highlight{
+    border-left: 2px solid blue;
+    margin: 10px 0;
+    font-size: 25px;
+    padding:20px;
+}
+
+.social-media{
+    width: 100%;
+}
+
+/* .social-media*/ .fa-icons{ 
+    padding: 20px;
+    display: inline-block;
+    width: 69%;
+}
+
+/* .social-media*/ .fa-icons i{
+    padding-left: 10px;
+}
+
+/* .social-media*/ .relax{
+    padding-left: 200px;
+    display: inline-block;
+    width: 28%;
+}
+
+/* .social-media*/ .relax i{
+    color:red;
+}
+
+.extra .fa-heart{
+    color: red;
+}
+
+.extra{
+    text-align: left;
+    width: 80%;
+    margin:40px auto;
+}
+
+.extra .recent-posts{
+    vertical-align: top;
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    color: gray;
+    margin-right: 40px;
+    padding-bottom: 20px;
+    border: 1px gray solid;
+}
+
+.extra .recent-posts hr{
+    margin: 40px 0 10px 0;
+    width: 100%;
+}
+
+.extra .recent-posts .pad{
+    padding:20px;
+}
+
+ .extra .recent-posts img{
+     width: 100%;
+     height: auto;
+ }
+
+ .extra .recent-posts .cent-text{
+     margin:0 auto;
+ }
+
+ .extra .login{
+     text-align: center;
+     padding:50px;
+     margin:30px 0;
+     border: gray 1px solid;
+     font-size: 20px;
+ }
+
+ .extra .login a{
+     text-decoration: none;
+ }
+/* 
+ footer{
+     
+ } */
+
+footer .nav{
+    width: 100%;
+    text-align: center;
+    background-color: #2572DA;
+ 
+}
+
+ footer .nav li a{
+     display: inline-block;
+     text-decoration: none;
+     height: 50px;
+     padding-top: 16px;
+     color: white;
+ }
+
+ footer .nav li{
+     display: inline;
+     padding-right: 18%;
+ }
+
+ footer .nav i{
+     color: white;
+     padding-right: 10px;
+ }
+
+ footer .images img{
+     width: 20%;
+     vertical-align: top;
+     height: auto;
+     padding: 0;
+     margin: -2px;
+ }
+
+.about{
+    background-color: #696969;
+    color: white;
+}
+
+ .about .about-me{
+     width: 50%;
+     display: inline-block;
+     padding:20px;
+     margin-left: 100px;
+     vertical-align: top;
+ }
+
+ .about .about-me img{
+     vertical-align: top;
+     display: inline-block;
+     width: 30%;
+     height: auto;
+     padding-top: 18px;
+ }
+
+ .about .mail .fa-icons2{
+     margin-top: 120px;
+ }
+
+ .about .about-me p{
+padding:10px;
+ }
+
+ .about .about-me .copy{
+     width: 80%;
+     margin-top: 100px;
+     display:inline-block;
+ }
+
+ .about .about-me .arrow{
+     width: 18%;
+display: inline-block;
+ }
+
+ .about .about-me .p{
+     vertical-align: top;
+     display: inline-block;
+     width: 40%;
+     padding: 10px;
+ }
+
+ .about .mail label, input, button{ 
+     display: block;
+     width: 100%;
+     margin:10px;
+ }
+
+ .about .mail input{
+     height: 50px;
+ }
+
+ .about .mail button{
+     height: 50px;
+     background-color: #2572DA;
+ }
+
+.about .mail{
+    display:inline-block;
+    width:40%;
+    padding:20px;
+    padding-right: 150px;
+    vertical-align: top;
+}
+
+.video, .audio{
+    width: 100%;
+    height: auto;
+}
+
